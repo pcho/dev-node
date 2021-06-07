@@ -1,18 +1,10 @@
-FROM node:latest
+FROM node:16.3.0-alpine3.11
 
-# Install deps
-RUN set -xe && \
-    apt-get update \
-    && apt-get install -y \
-    screen \
-    zsh
-
-# Change default shell to ZSH
-RUN chsh -s /usr/bin/zsh
+# Install screen
+RUN apk add --no-cache screen
 
 # Defaults
 USER root:root
 WORKDIR /root
 
-# Run with ZSH
-CMD ["/usr/bin/zsh"]
+CMD ["node"]
