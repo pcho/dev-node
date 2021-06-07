@@ -1,3 +1,3 @@
-# Node & Tmux
+# Node & GNU Screen
 
-Node:latest with builtin tmux support.
+Node:latest with builtin GNU Screen support.
