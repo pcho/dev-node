@@ -1,6 +1,6 @@
 FROM node:latest
 
-# Install GNU Screen
+# Install screen
 RUN set -xe && \
         apt-get update \
         && apt-get install -y \
@@ -9,3 +9,5 @@ RUN set -xe && \
 # Defaults
 USER root:root
 WORKDIR /root
+
+CMD ["/usr/bin/bash"]
