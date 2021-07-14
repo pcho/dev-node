@@ -10,4 +10,4 @@ RUN set -xe && \
 USER root:root
 WORKDIR /root
 
-CMD ["/usr/bin/bash"]
+CMD ["/bin/bash"]
