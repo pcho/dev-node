@@ -1,3 +1,3 @@
-# Node & screen
+# Node & tmux
 
-Node:latest with builtin screen support.
+Latest Node.js Docker image with tmux, time zones, and locales.
