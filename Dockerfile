@@ -17,6 +17,7 @@ RUN set -xe && \
     tzdata \
     autoconf \
     libtool \
+    htop \
     locales
 
 # Sets Timezone to EU/Berlin
