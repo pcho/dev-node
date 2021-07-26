@@ -10,6 +10,7 @@ RUN set -xe && \
     build-essential \
     libevent-dev \
     ncurses-dev \
+    fdfind \
     bison \
     pkg-config \
     cmake \
