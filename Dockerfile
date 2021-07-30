@@ -36,8 +36,6 @@ ENV LANG en_US.UTF-8
 ENV LANGUAGE en_US.UTF-8
 ENV LC_ALL en_US.UTF-8
 
-RUN yarn set version berry
-
 # Install TMUX from source
 RUN set -xe \
     && git clone --depth=1 https://github.com/tmux/tmux.git /tmux \
